@@ -9,10 +9,10 @@ import { createApp } from 'vue'
 import App from './App.vue'
 
 //引入rock-design
-import rockDesign from 'dwin-ui';
+import DwinUI from 'dwin-ui';
 import 'dwin-ui/dist/style.css';
 
 createApp(App)
-.use(rockDesign)
+.use(DwinUI)
 .mount('#app')
 ```
