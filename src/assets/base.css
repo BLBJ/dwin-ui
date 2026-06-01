@@ -1,0 +1,125 @@
+/* color palette from <https://github.com/vuejs/theme> */
+
+:root {
+    --color-primary: #2B8CE5;
+    --color-error: #F53F3F;
+    --vt-c-header-height: 48px;
+  }
+  
+  /* 亮系 */
+  :root[theme='light'] {
+    /* 主题色 */
+    /* 模块通用背景色 */
+    --color-background: #ffffff;
+    --tab-background: #818181; 
+    --color-background-content: #f0f2f5;
+  
+    /*操作框背景*/
+    --color-background-input: #F2F4F5;
+    --color-background-hover: #F2F3F5;
+    --color-background-active: #E5E8EB;
+    --color-disabled: #F7F8FA;
+    --color-background-schedule:rgba(192,196,204,0.5);
+    /* 文字 */
+    --color-text: #303133;
+    --color-text-disabled: #b5b5b5;
+    --color-text-hover: #000000;
+    --color-text-active: var(--color-primary);
+    --color-text-selected: #000000;
+    --color-title: #000000;
+    --color-text-btn: #000000;
+    --color-text-ploceholder: #757575;
+    /*边框线*/
+    --color-border: #E5E8EB;
+    --calendar-border:#c0c4cc;
+    /*菜单*/
+  
+    /*登录*/
+    --color-login-background: rgba(255, 255, 255, 0.7);
+    --dispatch-color-background: #f0f0f0;
+    --dispatch-hr-background: #cccccc;
+    --dispatch-downUp-background: #e6eaf1;
+    --dispatch-active-background: #2B8CE5;
+    --background-disabled: #cccccc;
+    --picker-hover: #f1f1f1;
+    --picker-next: #f1f1f1;
+  
+    --map-detail-back: rgba(223, 223, 227, 0.85);
+    --map-tab-back: rgba(0, 0, 0, 0.3);
+    --map-text-color: #ffffff;
+    --box-shadow-color:#e5e6eb; 
+    --calendar-background:#f7f9fa;
+    --calendar-backo:rgba(172,224,250,0.5);
+    --calendar-backt: rgba(32,36,44,0.6);
+    --calendar-backr: #f7f9fa;
+    --filter-list-hover:#e6f7ff;
+
+
+      --color-box-shadow1: rgba(0, 0, 0, 0.08);
+    --color-box-shadow2: rgba(0, 0, 0, 0.12);
+    --color-box-shadow3: rgba(0, 0, 0, 0.05);
+  }
+  
+  /* 暗系 */
+  :root[theme='dark'],:root{
+    /* 模块通用背景色 */
+    --color-background: #232324; 
+    --tab-background: #161618; 
+    --color-background-content: #292A2C;
+  
+    /*操作框背景*/
+    --color-background-input: #292A2C;
+    --color-background-hover: rgba(255, 255, 255, 0.1);
+    --color-background-active: rgba(255, 255, 255, 0.10);
+    --color-disabled: rgba(255, 255, 255, .3);
+    --dispatch-color-background: #39393a;
+    --dispatch-hr-background: #39393a;
+    --calendar-background:rgba(255, 255, 255, 0.04);
+    --calendar-backo:rgba(43,140,229,0.5);
+    --calendar-backt: rgba(167,174,188,0.6);
+    --calendar-backr: rgba(255,255,255,0.08);
+    --color-background-schedule:rgba(255,255,255,0.11);
+    --color-shadow:rgba(255, 255, 255, 0.04);
+    /* 文字 */
+    --color-text: #C0C4CC;
+    --color-text-disabled: #605b5b;
+    --color-text-hover: #FFFFFF;
+    --color-text-active: var(--color-primary);
+    --color-text-selected: #ffffff;
+    --color-text-btn: #ffffff;
+    --color-title: #FFFFFF;
+    --color-text-ploceholder: #757575;
+    --dispatch-downUp-background: none;
+    --dispatch-active-background: #4f4f4f;
+    /*边框线*/
+    --color-border: rgba(255, 255, 255, 0.10);
+    --background-disabled: #232324;
+    --picker-hover: #38383a;
+    --picker-next: #39393a;
+    --calendar-border:rgba(192,196,204,0.20);
+    --map-detail-back: rgba(35, 35, 36, 0.85);
+    --map-text-color: #909499;
+    /*菜单*/
+  
+    /*登录*/
+    --color-login-background: rgba(0, 0, 0, 0.7);
+    --map-tab-back: rgba(255, 255, 255, 0.10);
+    --box-shadow-color:#08080a;
+    --filter-list-hover:rgba(255, 255, 255, 0.10);
+    /* 日历 */
+
+    --color-box-shadow1: rgba(255, 255, 255, 0.08);
+    --color-box-shadow2: rgba(255, 255, 255, 0.12);
+    --color-box-shadow3: rgba(255, 255, 255, 0.05);
+
+  }
+  
+body {
+  min-height: 100vh;
+}
+html,body{
+  margin:0;
+  padding:0;
+  background-color: var(--color-background);
+  color: var(--color-text);
+}

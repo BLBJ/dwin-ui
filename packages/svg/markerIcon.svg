@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>定位</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="定位" fill-rule="nonzero">
+            <rect id="矩形" fill="#000000" opacity="0" x="0" y="0" width="24" height="24"></rect>
+            <path d="M12,1 C8.13501387,1 5,4.44849331 5,8.70000761 C5,14.475007 12,23 12,23 C12,23 19,14.475007 19,8.70000761 C19,4.44849334 15.8649861,1 12,1 Z M12.0000082,11.4500013 C10.6199953,11.4500013 9.50000822,10.2180143 9.50000822,8.70000761 C9.50000822,7.18200094 10.6199953,5.94998861 12.0000082,5.94998861 C13.3800047,5.94998861 14.4999918,7.18200097 14.4999918,8.70000763 C14.4999918,10.2180143 13.3800047,11.4500013 12.0000082,11.4500013 Z" id="形状" stroke="#FFFFFF" fill-opacity="0.2" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

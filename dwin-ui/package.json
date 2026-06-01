@@ -1,0 +1,35 @@
+{
+    "name": "dwin-ui",
+    "version": "1.0.0",
+    "description": "A Component-UI Library for Vue 3",
+    "keywords": ["dwin-ui", "component library", "dwin-ui", "dwin", "dwin-vue"],
+    "homepage": "https://dwin-ui.github.io/",
+    "bugs": {
+      "url": "https://github.com/dwin-ui/issues"
+    },
+    "license": "MIT",
+    "main": "dist/index.es.js",
+    "module": "dist/index.es.ts",
+    "unpkg": "dist/index.umd.js",
+    "exports": {
+      ".": {
+        "import": "./dist/index.es.js",
+        "require": "./dist/index.umd.js",
+        "types": "./dist/types/dwin-ui/index.d.ts"
+      },
+      "./*": "./*"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/dwin-ui/dwin-ui.git"
+    },
+    "publishConfig": {
+      "access": "public"
+    },
+    "style": "dist/style.css",
+    "scripts": {},
+    "author": "wbding",
+    "peerDependencies": {
+      "vue": "^3.2.0"
+    }
+  }

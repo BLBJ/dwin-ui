@@ -1,0 +1,51 @@
+/* color palette from <https://github.com/vuejs/theme> */
+
+:root {
+    --color-primary: #2B8CE5;
+    --color-error: #F53F3F;
+    --vt-c-header-height: 48px;
+
+    --color-success: rgba(0, 180, 42, 1);
+    --color-warning: rgba(255, 125, 0, 1);
+
+}
+
+/*  */
+:root {
+    --color-background: #ffffff;
+    --tab-background: #818181;
+    --color-background-content: #f0f2f5;
+
+    /*操作框背景*/
+    --color-background-input: #F2F4F5;
+    --color-background-hover: #F2F3F5;
+    --color-background-active: #E5E8EB;
+    --color-disabled: #c8c8c8;
+    --color-background-schedule: rgba(192, 196, 204, 0.5);
+    /* 文字 */
+    --color-text: #303133;
+    --color-text-disabled: #b5b5b5;
+    --color-text-hover: #000000;
+    --color-text-active: var(--color-primary);
+    --color-text-selected: #000000;
+    --color-title: #000000;
+    --color-text-btn: #000000;
+    --color-text-ploceholder: #757575;
+    /*边框线*/
+    --color-border: #E5E8EB;
+    --calendar-border: #c0c4cc;
+
+    --color-login-background: rgba(255, 255, 255, 0.7);
+    --dispatch-color-background: #f0f0f0;
+    --dispatch-hr-background: #cccccc;
+    --dispatch-downUp-background: #e6eaf1;
+    --dispatch-active-background: #2B8CE5;
+    --background-disabled: #cccccc;
+    --picker-hover: #f1f1f1;
+    --picker-next: #f1f1f1;
+}
+
+*{
+    box-sizing: border-box;
+    position: relative;
+}

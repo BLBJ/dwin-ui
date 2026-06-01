@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>lk_ic_rarrowbtn_def</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="基础信息管理(设备管理)" transform="translate(-1824.000000, -996.000000)">
+            <g id="-mockplus-" transform="translate(744.000000, 980.000000)">
+                <g id="分页" transform="translate(574.000000, 16.000000)">
+                    <g id="ICON/下一页" transform="translate(506.000000, 0.000000)">
+                        <rect id="BG" fill-opacity="0.1" fill="#FFFFFF" x="0" y="0" width="32" height="32"></rect>
+                        <g id="paging_btn_rarrow_def" transform="translate(8.000000, 8.000000)">
+                            <g id="1.Bace基础/3.Icon图标/Line/16px/chevron-right" transform="translate(-0.000000, -0.000000)">
+                                <path d="M16.0000003,3.49691163e-07 L16.0000003,16.0000003 L3.49689799e-07,16.0000003 L3.49689799e-07,3.49691163e-07 L16.0000003,3.49691163e-07 Z" id="矩形" opacity="0.600000024" transform="translate(8.000000, 8.000000) scale(-1, -1) rotate(90.000003) translate(-8.000000, -8.000000) "></path>
+                                <polygon id="路径-4-(Stroke)" fill="#FFFFFF" transform="translate(8.229804, 7.999976) scale(-1, -1) rotate(90.000003) translate(-8.229804, -7.999976) " points="4.68942359 5.31054674 8.22980431 8.85092722 11.7701848 5.31054674 12.6894238 6.22978555 8.22980431 10.6894048 3.77018478 6.22978555"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

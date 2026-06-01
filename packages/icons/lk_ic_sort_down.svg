@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="6px" viewBox="0 0 12 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>lk_ic_sort_down</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="基础信息管理(设备管理)" transform="translate(-130.000000, -280.000000)">
+            <g id="lk_ic_sort_down" transform="translate(130.000000, 280.000000)">
+                <rect id="矩形" x="0" y="0" width="12" height="6"></rect>
+                <g id="paixu" transform="translate(2.000000, 0.589761)" fill="#606266">
+                    <path d="M7.5426099,0 L0.457390095,0 C-0.0297280575,0 -0.146509881,0.375701886 0.197948929,0.834907165 L3.37381991,5.06583551 C3.71827872,5.52504078 4.28176885,5.52504078 4.62618009,5.06583551 L7.80205107,0.834907165 C8.14650988,0.375701886 8.02972806,0 7.5426099,0 Z" id="路径"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
