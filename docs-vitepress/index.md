@@ -16,7 +16,7 @@ hero:
       text: 快速开始
       link: /guide/installation
     - theme: alt
-      text: 在 Gitlab 上查看
+      text: 在 github 上查看
       link: https://github.com/BLBJ/dwin-ui
 
 features:
