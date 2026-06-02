@@ -76,7 +76,7 @@ export default {
                         },
                         {
                             text: "树选择 TreeSelect",
-                            link: "/components/TreeSelect",
+                            link: "/components/treeSelect",
                         },
                         {
                             text: "滑动输入条 Slider",
@@ -101,7 +101,7 @@ export default {
                         },
                         {
                             text: "对话弹窗 Modal",
-                            link: "/components/Modal",
+                            link: "/components/modal",
                         },
                     ],
                 },
