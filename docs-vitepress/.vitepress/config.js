@@ -1,4 +1,5 @@
 export default {
+    base: '/dwin-ui/',
     outDir: '../docs',
     appearance: false,
     themeConfig: {
