@@ -2,7 +2,7 @@
 
 ## 环境支持
 
-由于 Vue 3 不再支持 IE11，Rock-design-vue 也不再支持 IE11 浏览器。
+由于 Vue 3 不再支持 IE11，DWin UI 也不再支持 IE11 浏览器。
 
 ## 版本
 
