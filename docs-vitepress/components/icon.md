@@ -8,13 +8,13 @@
 
 <div class="example">
     <div>
-        <svg-icon class='d-icon' name='plus'></svg-icon>
-         <svg-icon class='d-icon' name='refresh'></svg-icon>
-        <svg-icon class='d-icon' name='close'></svg-icon>
-        <svg-icon class='d-icon' name='fullscreen'></svg-icon>
-        <svg-icon class='d-icon' name='search' size='20'></svg-icon>
-        <svg-icon class='d-icon' name='loading' size='25'></svg-icon>
-        <svg-icon class='d-icon' name='loading' size='30' color='red'></svg-icon>
+        <d-svg-icon class='d-icon' name='plus'></d-svg-icon>
+         <d-svg-icon class='d-icon' name='refresh'></d-svg-icon>
+        <d-svg-icon class='d-icon' name='close'></d-svg-icon>
+        <d-svg-icon class='d-icon' name='fullscreen'></d-svg-icon>
+        <d-svg-icon class='d-icon' name='search' size='20'></d-svg-icon>
+        <d-svg-icon class='d-icon' name='loading' size='25'></d-svg-icon>
+        <d-svg-icon class='d-icon' name='loading' size='30' color='red'></d-svg-icon>
     </div>
 </div>
 
