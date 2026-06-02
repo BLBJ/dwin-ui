@@ -7,9 +7,9 @@
     "preview": "vite preview --port 4173",
     "test:unit": "vitest --environment jsdom",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:serve": "vitepress serve docs"
+    "docs:dev": "vitepress dev  docs-vitepress",
+    "docs:build": "vitepress build docs-vitepress",
+    "docs:serve": "vitepress serve  docs-vitepress"
   },
   "dependencies": {
     "dayjs": "^1.11.13",
