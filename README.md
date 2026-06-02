@@ -10,7 +10,6 @@
 基于 Vue3 的企业级中台后台 UI 组件库
 
 [![npm version](https://img.shields.io/npm/v/dwin-ui.svg?style=flat-square)](https://www.npmjs.org/package/dwin-ui)
-[![npm downloads](https://img.shields.io/npm/dm/dwin-ui.svg?style=flat-square)](https://www.npmtrends.com/dwin-ui)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](./LICENSE)
 [![Vue3](https://img.shields.io/badge/Vue-3.x-%2342b883.svg?style=flat-square)](https://vuejs.org/)
 
@@ -19,6 +18,11 @@
 <p align="center">
 <a href="./README.md">简体中文</a> | English
 </p>
+
+<p align="center">
+<a href="https://blbj.github.io/dwin-ui/">文档预览</a>
+</p>
+
 
 ## 介绍
 **DWin UI** 是一套基于 Vue3 开发的轻量化、标准化**企业中台后台通用组件库**。
