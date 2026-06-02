@@ -1,5 +1,5 @@
 <template>
-  <div class="rock_page_container">
+  <div class="d_page_container">
     <div class="total" v-show="isShowTotal">总数： {{ total }}</div>
     <ul>
       <li name="left" @click="prev">
@@ -141,7 +141,7 @@ watch(
 </script>
 
 <style lang="scss" scoped>
-.rock_page_container {
+.d_page_container {
   display: flex;
   align-items: center;
   justify-content: right;

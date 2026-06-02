@@ -1,6 +1,6 @@
 <template>
   <div
-    class="rock_input_number"
+    class="d_input_number"
     :style="{ width: width + 'px' }"
     :data-error="error"
     :class="{ error: error }"
@@ -151,7 +151,7 @@ watch(
 </script>
 
 <style lang="scss" scoped>
-.rock_input_number {
+.d_input_number {
   position: relative;
   display: inline-block;
   width: 100%;

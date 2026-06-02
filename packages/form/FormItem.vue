@@ -1,5 +1,5 @@
 <template>
-    <div class="rock_form_item">
+    <div class="d_form_item">
         <label><span :style="{width:labelWidth+'px'}"  :required="required">{{ label }}</span></label>
         <slot></slot>
     </div>
@@ -23,7 +23,7 @@ const props = defineProps({
 </script>
 
 <style lang="scss" scoped>
-.rock_form_item {
+.d_form_item {
     display: flex;
     align-items: center;
     margin-bottom: 20px;

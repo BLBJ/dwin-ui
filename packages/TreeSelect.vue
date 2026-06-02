@@ -1,6 +1,6 @@
 <template>
-  <div class="rock_select" :style="{ width: width + 'px' }" :class="{ disable: disabled, error: error }" :data-error="error">
-    <div class="rock_label" ref="triggerEle" @click.stop="openDropDown" :class="{ open: showDropDown }">
+  <div class="d_select" :style="{ width: width + 'px' }" :class="{ disable: disabled, error: error }" :data-error="error">
+    <div class="d_label" ref="triggerEle" @click.stop="openDropDown" :class="{ open: showDropDown }">
       <span v-if="mode === 'single'" :class="{ placeholderStyle: labelText === placeholder }">{{ labelText }}</span>
       <div class="multiple_labels" v-if="mode === 'multiple'">
         <span style="margin-right: 8px" v-for="(item, index) in labelText" :key="index" class="label">
@@ -172,7 +172,7 @@ const clearSelected = () => {
 </script>
 
 <style lang="scss" scoped>
-.rock_select {
+.d_select {
   position: relative;
   cursor: pointer;
   width: 100%;
@@ -202,7 +202,7 @@ const clearSelected = () => {
   color: var(--color-text-ploceholder);
 }
 
-.rock_label {
+.d_label {
   width: 100%;
   min-height: 32px;
   background: var(--color-background);

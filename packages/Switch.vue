@@ -1,5 +1,5 @@
 <template>
-  <div class="rock_switch" @click="change" :class="[classText,disabled?'disabled':'']">
+  <div class="d_switch" @click="change" :class="[classText,disabled?'disabled':'']">
     <slot name="content">
       <span class="open" v-show="value_" :class="value_?'textLeft':''">{{ text[0] }}</span>
       <div class="icon">
@@ -75,7 +75,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.rock_switch {
+.d_switch {
   display: inline-block;
   width: 40px;
   height: 16px;

@@ -1,6 +1,6 @@
 <template>
   <div
-    class="rock_input"
+    class="d_input"
     :style="{ width: width + 'px' }"
     :data-error="error"
     :class="{ error: error }"
@@ -78,7 +78,7 @@ const iconClick = () => {
 </script>
 
 <style lang="scss" scoped>
-.rock_input {
+.d_input {
   position: relative;
   display: inline-block;
   width: 100%;

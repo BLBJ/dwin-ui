@@ -1,6 +1,6 @@
 <template>
   <div
-    class="rock_select"
+    class="d_select"
     :style="{ width: width + 'px' }"
     :class="{ error: error }"
     :data-error="error"
@@ -11,7 +11,7 @@
   >
     <div v-if="disabled" class="disable"></div>
     <div
-      class="rock_label"
+      class="d_label"
       ref="triggerEle"
       :class="{
         open: showDropDown,
@@ -485,7 +485,7 @@ defineExpose({
 </script>
 
 <style lang="scss" scoped>
-.rock_select {
+.d_select {
   position: relative;
   cursor: pointer;
   width: 100%;
@@ -522,7 +522,7 @@ defineExpose({
   color: var(--color-text-ploceholder);
 }
 
-.rock_label {
+.d_label {
   position: relative;
   width: 100%;
   min-height: 32px;

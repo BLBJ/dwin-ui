@@ -1,5 +1,5 @@
 <template>
-  <div class="rock_tree_container" ref="tree_container" v-if="treeData_.length">
+  <div class="d_tree_container" ref="tree_container" v-if="treeData_.length">
     <TreeItem v-bind="$attrs" v-for="(item, index) in treeData_" :label-key="labelKey" :value-key="valueKey" :key="index"
       :value-key-fn="valueKeyFn" :label-key-fn="labelKeyFn" :multiple="multiple" :currentKey="currentKey"
       :currentChecks="currentChecks" :currentChecksNotAll="currentChecksNotAll" :expandKeys="currentExpandKeys"
@@ -266,7 +266,7 @@ const expandChange = (key) => {
 </script>
 
 <style lang="scss" scoped>
-.rock_tree_container {
+.d_tree_container {
   position: relative;
 }
 

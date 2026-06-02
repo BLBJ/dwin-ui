@@ -2,7 +2,7 @@
 
 
 import './style/base.css';
-import * as rockUtils from './utils';
+import * as DUtils from './utils';
 import { COMP_PREFIX } from "./config.js";
 
 import ModalBox from "./modal/ModalBox.vue";
@@ -103,7 +103,7 @@ export {
     CheckboxGroup,
     RangePicker,
     Ring,
-    rockUtils,
+    DUtils,
     Slider,
     Message,
     Modal,

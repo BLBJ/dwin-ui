@@ -8,7 +8,7 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 
-//引入rock-design
+//引入dwin-ui
 import DwinUI from 'dwin-ui';
 import 'dwin-ui/dist/style.css';
 
